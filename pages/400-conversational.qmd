@@ -1,0 +1,183 @@
+---
+title: "Conversational Learning "
+subtitle: "Using AI as a learning partner, not just a task executor"
+---
+
+::: {.callout-note}
+### Key Takeaways
+- Use AI as learning partner, not task executor - Ask "why" and "how" to understand processes, not just get outputs
+- Shift from efficiency to learning mindset - Move from "give me the answer" to "walk me through the thinking"
+- Challenge AI reasoning - Test explanations, ask about limitations, play devil's advocate
+:::
+
+Most people approach AI with a transactional mindset, asking for document summaries, presentation outlines, email drafts, or quick recommendations. While this approach produces immediate outputs, it creates a fundamental problem: you receive results without gaining insight into the underlying processes that created them.
+
+The learning partnership approach transforms this dynamic entirely. Instead of simply requesting outputs, you engage AI as a collaborative thinking partner. You might ask an AI to explain **why** it structured a summary in a particular way, what principles guided its outline choices, or how it determined the appropriate tone for professional communication. This shift in questioning style ensures that every interaction becomes an opportunity to understand processes and develop transferable skills.
+
+::: {.callout-important}
+### University of Bristol AI guidance
+
+AI should enhance learning and understanding, not shortcut the thinking process. We must "guard against learning losses" and ensure AI supports intellectual development.
+
+[Find more →](./800-resources.qmd)
+:::
+
+The difference in outcomes is profound. Traditional approaches leave you dependent on AI for similar future tasks, while learning partnerships build your capacity to handle increasingly complex challenges independently.
+
+
+### The Power of "Why" Questions
+
+Understanding decision-making processes is at the heart of conversational learning. Rather than accepting AI outputs at face value, successful learners probe deeper into the reasoning behind recommendations. This approach reveals the thinking patterns and analytical frameworks that experts use in their fields.
+
+Instead of just accepting AI outputs, explore the reasoning:
+
+
+| From | → | To |
+|------|-|--------|
+| **Efficiency Mindset** | → | **Learning Mindset** |
+| "Just tell me what to do" | → | "Help me understand why this works" |
+| "Give me the answer" | → | "Walk me through the thinking process" |
+| "What's the best practice?" | → | "What are the trade-offs I should consider?" |
+| **Certainty Seeking** | → | **Uncertainty Embracing** |
+| "What's the right answer?" | → | "What factors should influence this decision?" |
+| "Tell me the best approach" | → | "Help me understand the complexity of this issue" |
+
+
+
+::: {.callout-note}
+## Remember
+The goal isn't to have AI solve your problems, but to help you become better at solving problems yourself. Every conversation should leave you more capable and knowledgeable than when you started.
+:::
+
+
+### Learning Questions
+
+**Process Questions**. How did you do that?
+
+- "Walk me through your thinking process"
+- "What steps did you follow to reach this conclusion?"
+- "How did you prioritize these factors?"
+
+**Justification Questions**. Why this approach?
+
+- "What makes this approach better than alternatives?"
+- "What assumptions underlie your recommendation?"
+- "Why did you emphasize this particular aspect?"
+
+**Alternative Questions**. What else could work?
+
+- "What other approaches did you consider?"
+- "How would this change in different contexts?"
+- "What would you do if [constraint] existed?"
+
+**Critical Questions**. What are the limitations?
+
+- "What are the potential weaknesses of this approach?"
+- "Where might this reasoning fall short?"
+- "What would a critic say about this recommendation?"
+
+**Challenging AI Reasoning**. Don't just accept explanations, test them.
+
+- "What would happen if we did the opposite?"
+- "Can you think of situations where this approach would fail?"
+- "What evidence would contradict your recommendation?"
+- "What's the worst-case scenario with this approach?"
+- "Play devil's advocate with your own suggestion"
+- "What would a skeptic say about this approach?"
+
+
+<br>
+---
+
+
+### Exercise 4: Conversational Learning Practice
+
+**Scenario**: You need to improve staff participation in development courses.
+
+**1. Traditional Approach**.
+First, ask AI directly: "Give me strategies to increase staff participation in development courses."
+
+**2. Learning Partnership Approach**.
+Now, have a learning conversation. Use these conversation starters:
+
+- **Explore the problem**: "Help me understand why staff might be reluctant to participate. What factors typically influence participation?"
+- **Question assumptions**: "I'm assuming low participation is a problem - help me examine this assumption. When might quiet classrooms actually be effective?"
+- **Build understanding**: "What principles of group dynamics and learning psychology should guide my approach?"
+
+**3. Reflection**.
+Compare the two approaches:
+
+- Which gave you more insight into the underlying issues?
+- Which better prepared you to handle similar challenges in the future?
+
+
+::: {.callout-caution collapse="true" icon=false}
+### Solution example
+
+Based on Copilot (GPT-4 architecture).
+
+> In 200 words, give me strategies to increase staff participation in development courses.
+
+::: {.callout-note appearance="simple" icon="false"}
+To increase staff participation in development courses, focus on relevance, accessibility, and motivation. Begin by aligning courses with individual career goals and team objectives. When staff see how training supports their growth or contributes to project success, they’re more likely to engage.
+
+Make learning convenient by offering flexible formats—online modules, short sessions, or on-demand access. Ensure courses are scheduled during work hours and don’t conflict with key responsibilities.
+
+Leadership plays a key role: managers should actively promote courses, participate themselves, and recognize staff who engage. This sets a positive example and reinforces a culture of learning.
+
+Incentivize participation with certificates, digital badges, or public recognition. Link course completion to tangible benefits like eligibility for new roles or responsibilities.
+
+Regularly communicate the value of development opportunities through internal channels. Use success stories or testimonials to show real-world impact.
+
+Finally, gather feedback to improve course offerings and involve staff in shaping future content. When employees feel heard and see their input reflected, they’re more likely to participate.
+:::
+
+> In 200 words, help me understand why staff might be reluctant to participate. What factors typically influence participation?
+
+::: {.callout-note appearance="simple" icon="false"}
+Staff may be reluctant to participate in development courses due to a mix of practical constraints and psychological factors. One of the most common barriers is lack of time—employees often feel overwhelmed by daily responsibilities and may not see how training fits into their workload. If courses are scheduled during busy periods or require significant time commitments, participation drops.
+
+Another key factor is perceived relevance. Staff are less likely to engage if they don’t see how the course content applies to their role or career goals. Generic or outdated offerings can feel disconnected from real work challenges.
+
+Managerial support also plays a crucial role. If leaders don’t actively encourage participation or fail to prioritize learning, staff may assume it’s not valued. Conversely, when managers model engagement and link training to performance reviews or promotions, uptake improves.
+
+Fear of failure or judgment can also deter participation, especially in group settings or courses with assessments. Some staff may worry about exposing gaps in their knowledge.
+
+Finally, accessibility issues—such as limited formats, lack of remote options, or unclear instructions—can make courses hard to attend.
+:::
+
+> I'm assuming low participation is a problem - help me examine this assumption. When might quiet classrooms actually be effective? Don't use more than 200 words.
+
+::: {.callout-note appearance="simple" icon="false"}
+Low participation in development courses is often seen as a problem, but it’s worth examining whether that assumption always holds. A quiet classroom doesn’t necessarily mean disengagement—it can reflect deep concentration, a preference for self-paced learning, or a mismatch between delivery style and learning preferences.
+
+Some staff may prefer asynchronous formats, such as recorded sessions or written materials, which don’t require visible participation. Others may be absorbing content passively before applying it practically. In highly skilled or research-focused environments, staff might already be learning informally through projects, peer collaboration, or independent study.
+
+Additionally, low attendance might indicate that the course isn’t needed, rather than a lack of interest. If staff already possess the skills being taught, or if the course doesn’t align with current priorities, opting out can be a rational choice.
+
+Rather than focusing solely on numbers, it’s more useful to assess impact—are those who attend applying what they learn? Are staff developing in other ways? Quiet classrooms can still be effective if they support meaningful, relevant learning.
+:::
+
+> What principles of group dynamics and learning psychology should guide my approach? Don't use more than 200 words.
+
+::: {.callout-note appearance="simple" icon="false"}
+Your approach to increasing participation in development courses should be guided by key principles from group dynamics and learning psychology:
+
+1. **Social Influence & Norms**. People are more likely to engage when they see peers doing the same. Creating visible norms around participation—such as team-wide involvement or manager endorsement—can foster a sense of collective commitment.
+
+2. **Psychological Safety**. Staff need to feel safe to ask questions, make mistakes, and share ideas. A supportive learning environment encourages participation, especially in group settings.
+
+3. **Self-Determination Theory**. Motivation increases when learners feel autonomy, competence, and relatedness. Offer choices in course formats, ensure content builds confidence, and foster connection through collaborative activities.
+
+4. **Constructivist Learning**. People learn best when they actively construct knowledge through experience. Encourage reflection, discussion, and application to real tasks rather than passive consumption.
+
+5. **Group Cohesion**. Strong group bonds improve engagement. Use team-based learning, peer mentoring, or shared goals to build trust and accountability.
+:::
+ 
+<br>
+:::
+
+
+
+
+

@@ -1,0 +1,104 @@
+---
+title: "LLMs tools"
+---
+
+Large Language Models (LLMs) have been rapidly introduced to workplace environments since ChatGPT's breakthrough launch in late 2022. The landscape is quickly evolving, with major tech companies and AI startups releasing increasingly sophisticated models tailored for different use needs. When selecting an LLM consider factors such as data privacy policies, integration capabilities, cost structure, and specific feature sets that align with the University's workflows. The following list covers the some of the most prominent options available today.
+
+#### Microsoft Copilot [copilot.microsoft.com](https://copilot.microsoft.com)
+- **First Release**: March 2023
+- **Strengths**: Deep integration with Microsoft Office suite
+- **Best for**: Document creation, email assistance, Office workflows, enterprise productivity
+- **Considerations**: Enterprise versions offer better data protection; requires Microsoft 365 subscription
+
+::: {.callout-important}
+### University of Bristol AI guidance 
+
+The only recommended tool for the time being is **Microsoft Copilot** if you are looking to use generative AI to minimise data and privacy concerns.
+
+The goal isn't to avoid AI tools entirely, but to use them responsibly and effectively. Do not use AI apps, solutions, platforms that have not been formally approved by the University with personal data or any other confidential or sensitive information.
+
+[Find more →](./800-resources.qmd)
+:::
+
+
+#### ChatGPT (OpenAI) [chat.openai.com](https://chat.openai.com)
+- **First Release**: November 2022
+- **Strengths**: Conversational, good for general tasks, coding assistance
+- **Best for**: Writing assistance, brainstorming, general Q&A, code generation
+- **Considerations**: Data usage policies vary by version; enterprise versions available
+
+#### Claude (Anthropic) [claude.ai](https://claude.ai)
+- **First Release**: March 2023
+- **Strengths**: Helpful, harmless, honest approach; excellent for analysis
+- **Best for**: Analysis, research assistance, ethical reasoning, document processing
+- **Considerations**: Strong focus on safety and accuracy; large context window
+
+
+#### Google Gemini [gemini.google.com](https://gemini.google.com)
+- **First Release**: December 2023
+- **Strengths**: Multimodal capabilities, integration with Google Workspace
+- **Best for**: Research, document analysis, creative tasks, Google ecosystem integration
+- **Considerations**: Various models available (Nano, Pro, Ultra) with different capabilities
+
+#### Google NotebookLM [notebooklm.google.com](https://notebooklm.google.com)
+- **First Release**: July 2023
+- **Strengths**: Document-grounded AI, source-based research, podcast-style audio summaries
+- **Best for**: Research analysis, document synthesis, creating audio overviews, academic work
+- **Considerations**: Works with your uploaded sources; Plus version offers 5x higher usage limits
+
+#### Meta Llama [llama.meta.com](https://llama.meta.com)
+- **First Release**: February 2023
+- **Strengths**: Open-source, customizable, strong performance
+- **Best for**: Custom applications, on-premise deployment, research
+- **Considerations**: Requires technical expertise; various sizes available (7B to 405B parameters)
+
+#### Perplexity AI [perplexity.ai](https://perplexity.ai)
+- **First Release**: August 2022
+- **Strengths**: Real-time web search integration, source citations
+- **Best for**: Research, fact-checking, current information retrieval
+- **Considerations**: Excellent for staying current with latest information
+
+
+
+<!-- Not free or considered safe
+
+#### Amazon Bedrock [aws.amazon.com/bedrock](https://aws.amazon.com/bedrock)
+- **First Release**: April 2023
+- **Strengths**: Multi-model access, AWS integration, serverless
+- **Best for**: AWS ecosystems, accessing multiple models, enterprise cloud solutions
+- **Considerations**: Provides access to various models (Claude, Llama, etc.) through single API
+
+#### IBM Granite [ibm.com/products/granite](https://www.ibm.com/products/granite)
+- **First Release**: May 2024
+- **Strengths**: Open-source, enterprise-ready, strong governance features
+- **Best for**: Enterprise applications requiring transparency, regulated industries
+- **Considerations**: Fully open source under Apache v.2 license; strong focus on trust and governance
+
+#### xAI Grok [x.ai](https://x.ai)
+- **First Release**: November 2023
+- **Strengths**: Real-time X (Twitter) data access, conversational personality
+- **Best for**: Social media insights, current events, informal communication
+- **Considerations**: Requires X Premium subscription; more casual tone
+
+#### DeepSeek [deepseek.com](https://deepseek.com)
+- **First Release**: 2023
+- **Strengths**: Cost-effective, strong reasoning capabilities, competitive performance
+- **Best for**: Budget-conscious applications, reasoning tasks, code generation
+- **Considerations**: Chinese company; offers competitive performance at lower cost
+
+-->
+
+<br>
+
+### Proper Attribution
+
+When artificial intelligence tools significantly contribute to your work, proper attribution is essential for maintaining transparency and ethical standards. Failing to acknowledge AI assistance where it played a substantial role can mislead audiences about the true nature of your work's creation.
+
+**Example Attribution**:
+"Initial drafts of this literature review were developed with assistance from Claude (Sonnet 4). All sources were independently verified, analysis was conducted by the author, and conclusions represent the author's professional judgment."
+
+**Require more thorough record-keeping?** Use this extended form instead
+
+::: {.center}
+[![](../assets/docx.png) LLM_Usage_Documentation_Form.docx](../assets/LLM_Usage_Documentation_Form.docx)
+:::

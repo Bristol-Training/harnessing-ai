@@ -1,0 +1,114 @@
+---
+title: "Ethics & Environmental Impact"
+---
+
+::: {.callout-note}
+### Key Takeaways
+- Environmental cost is significant - Use AI efficiently, batch queries, choose smaller models when appropriate
+- AI has biases - Watch for gender, racial, socioeconomic, and geographic biases; request diverse examples explicitly
+- Maintain human oversight - AI should enhance, not replace, your expertise and critical judgment
+:::
+
+
+::: {.callout-important}
+## University of Bristol AI guidance
+
+We must be mindful of "environmental impacts, risks of bias and stereotyping, and ethical concerns about data privacy and security" when using AI tools.
+
+[Find more →](./800-resources.qmd)
+:::
+
+
+
+### Environmental Impact
+
+#### The Hidden Carbon Cost
+
+AI systems consume significant energy:
+
+- **Training large models**: It's estimated that GPT-3's training produced 85,000 kg of CO₂, emitting the same CO₂ as 112 cars running for a year.
+
+- **Running AI services**: Continuous energy use in data centers
+- **User interactions**: Each query requires computational resources
+
+
+#### Sustainable AI Practices
+
+**Reduce Usage**:
+
+- Batch similar queries together
+- Use AI for high-value tasks, not trivial ones
+- Cache and reuse outputs when possible
+
+**Choose Efficiently**:
+
+- Select providers committed to renewable energy
+- Consider the computational cost of your requests
+- Avoid unnecessary regeneration of content
+
+**Offset Impact**:
+
+- Support carbon offset initiatives
+- Advocate for renewable energy in AI infrastructure
+
+
+### Bias and Fairness in AI
+
+#### Understanding AI Bias
+
+AI systems inherit biases from their training data and can amplify existing societal inequalities.
+
+**Gender Bias**
+
+- Associating certain professions with specific genders
+- Using gendered language inappropriately
+- Making assumptions about capabilities based on gender
+
+**Racial and Ethnic Bias**
+
+- Stereotypical associations with names or cultural references
+- Underrepresenting certain groups in examples
+- Making assumptions about backgrounds or capabilities
+
+**Socioeconomic Bias**
+
+- Assuming access to resources or opportunities
+- Using examples that exclude certain economic backgrounds
+- Privileging certain educational or professional experiences
+
+**Geographic Bias**
+
+- Focusing on Western/English-speaking perspectives
+- Making assumptions about local contexts
+- Overlooking global south perspectives
+
+
+::: {.callout-warning}
+## Bias Detection Questions
+
+When reviewing AI outputs, ask:
+
+- **Representation**: Who is included and excluded in examples?
+- **Language**: Are descriptions fair and respectful to all groups?
+- **Assumptions**: What unstated assumptions are being made?
+- **Perspectives**: Whose viewpoints are prioritized?
+- **Stereotypes**: Are any harmful generalizations present?
+:::
+
+#### Mitigating Bias
+
+**Prevention Strategies**:
+
+- Request diverse examples explicitly
+- Ask for multiple perspectives on controversial topics
+- Challenge AI outputs that seem stereotypical
+- Include diverse voices in your verification process
+
+For example, instead of:
+
+> Provide examples of successful leaders,
+
+try:
+
+> Provide examples of successful leaders from diverse backgrounds, including different genders, ethnicities, and cultural contexts, explaining their varied leadership styles.
+

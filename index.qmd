@@ -1,0 +1,48 @@
+---
+title: "Introduction"
+---
+
+
+
+Welcome to this training course on the responsible use of Artificial Intelligence (AI) at the University.
+
+The term Artificial Intelligence refers to computer systems that can perform tasks typically requiring human intelligence, such as understanding language, recognizing patterns, and making decisions. While the AI field has many years of research and development behind it, today's increased popularity is largely driven by generative AI models—systems that can create new content like text, images, and code based on the patterns they've learned from vast amounts of data. You've probably heard of and used tools like ChatGPT and Copilot—here we'll learn how to use them effectively and in compliance with University of Bristol guidance.
+
+::: {.callout-important}
+### University of Bristol AI guidance
+
+This course is built on the foundation of the University's commitment to responsible AI use. Our approach emphasizes:
+
+- **Transparency**: Being open about when and how AI is used
+- **Critical Thinking**: Using AI to support, not replace, intellectual rigor
+- **Academic and Professional Integrity**: Maintaining the highest standards of work
+- **Ethical Considerations**: Being mindful of bias, privacy, and environmental impact
+
+[Find more →](./800-resources.qmd)
+:::
+
+
+### Learning Objectives
+By the end of this course, you will be able to:
+
+- Understand what LLMs are and their key capabilities and limitations
+- Apply responsible practices when using AI tools in your work
+- Craft effective prompts that enhance rather than replace critical thinking
+- Navigate ethical considerations including bias, privacy, and environmental impact
+- Implement University of Bristol policies and guidelines in your AI usage
+
+
+
+### About this course
+
+These course materials have been designed and developed by  **Pau Erola, PhD** (Jean Golding Institute, University of Bristol).
+
+Thanks to Leo Gorman, Will Chapman, Rita Rasteiro, Richard Lane, James Thomas and Patricia Holley for their valuable comments and corrections.
+
+We used the enhancement of AI in alignment with our institutional guidance:
+
+- **Microsoft Copilot (GPT-4 & GPT-5)**-- Generation of synthetic datasets, documents and examples
+- **Claude (Sonnet 4)** -- Writing assistance, examples generation
+- **ChatGPT (GPT-5)** -- Generation of figures
+
+For queries related to this course please contact [jgi-training@bristol.ac.uk](mailto:jgi-training@bristol.ac.uk).

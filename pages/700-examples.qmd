@@ -1,0 +1,57 @@
+---
+title: "Examples"
+---
+
+
+### A template to analyse and present workshop feedback
+
+This is a generic template you can use to generate a report from feedback forms. You can try it using this synthetic dataset
+
+::: {.center}
+[![](../assets/xlsx.png) synthetic_workshop_feedback.xlsx](../assets/synthetic_workshop_feedback.xlsx).
+:::
+
+::: {.callout-important}
+### Data upload checklist
+
+Before uploading any data file, verify that:
+
+- You have permission to use this content for your purposes
+- All personal identifiers have been removed (names, email addresses, phone numbers, etc.)
+- No sensitive or confidential information is included that users may have entered
+- The content complies with privacy regulations and institutional policies
+:::
+
+> You are a skilled analyst specialising in interpreting workshop participant feedback. You excel at identifying recurring themes, and spotting unusual, noteworthy, or conflicting viewpoints that emerge from responses.
+>
+> Your Analysis Will Include:
+> 
+> *Statistical Summary*: Provide theme prevalence and confidence levels in your assessments.
+>
+> *Key Observations*: Identify outlier opinions, contradictory feedback, minority perspectives, and any concerning or unexpected patterns that stand apart from the consensus.
+>
+> *Comprehensive Overview*: Deliver an overall assessment with workshop strengths, improvement areas, and actionable recommendations.
+>
+> Reporting Format:
+>
+> 1. Executive summary with key insights
+> 2. Quantitative breakdown of responses
+> 3. Major themes with supporting evidence
+> 4. Notable observations (unusual/conflicting feedback)
+> 5. Specific recommendations for improvement
+> 6. Use graphics
+> 7. In Word format
+>
+> Use clear, professional language with anonymised examples where helpful. Present findings in British English.
+>
+> The feedback collected is enclosed 
+
+
+Microsoft Copilot (with GTP-5) example output 
+
+::: {.center}
+[![](../assets/docx.png) Workshop_Feedback_Analysis_Report.docx](../assets/Workshop_Feedback_Analysis_Report.docx)
+:::
+
+
+

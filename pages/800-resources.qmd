@@ -1,0 +1,47 @@
+---
+title: "Resources"
+---
+
+### Guidelines
+
+#### University of Bristol guidance
+
+- [**IT Services Generative AI Guidance**](https://uob.sharepoint.com/sites/itservices/SitePages/generative-ai.aspx) (UoB login required)
+
+- [University Guidance on Generative AI in Education](https://www.bristol.ac.uk/bilt/sharing-practice/guides/guidance-on-ai/)
+
+- [Study Skills Resource on Using AI for Students](https://alt.content.bris.ac.uk/bbcswebdav/courses/Study_Skills/using-ai-at-university/)
+
+
+#### Other guidance
+
+- [Russell Group Principles on generative AI in education](../assets/Russell%20Group%20principles%20on%20generative%20AI%20in%20education.pdf)
+
+- [UKRIO Embracing AI with integrity](https://doi.org/10.37672/UKRIO.2025.06.embracingAIwithintegrity)
+
+
+### Training resources
+
+#### Prompt Engineering 
+
+- [OpenAI Prompt Engineering Guide](https://platform.openai.com/docs/guides/prompt-engineering)
+
+- [Anthropic's Guide to Claude](https://docs.anthropic.com/claude/docs)
+
+- [Google's AI Principles and Practices](https://ai.google/principles/)
+
+
+#### AI Ethics 
+
+- [Partnership on AI](https://partnershiponai.org/)
+
+- [AI Ethics Lab](https://aiethicslab.com/)
+
+- [Future of Humanity Institute](https://www.fhi.ox.ac.uk/)
+
+
+#### Other
+
+- [On the reg podcast](https://onthereg.buzzsprout.com/)
+
+- [One useful thing blog](https://www.oneusefulthing.org/)

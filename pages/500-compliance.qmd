@@ -1,0 +1,110 @@
+---
+title: "Privacy & Compliance"
+---
+
+::: {.callout-note}
+### Key Takeaways
+- Follow University guidelines - Ensure academic integrity, maintain transparency, disclose AI use appropriately
+- Never share sensitive data - No personal records, unpublished research, financial info, or security credentials
+- Assess privacy risk first - Low risk (public info), medium risk (internal docs), high risk (personal/confidential)
+- Use best practices - Anonymize data, use institutional accounts when available, check privacy policies
+:::
+
+::: {.callout-important}
+## University of Bristol AI guidance
+
+We must be mindful of "environmental impacts, risks of bias and stereotyping, and ethical concerns about data privacy and security" when using AI tools.
+
+[Find more →](./800-resources.qmd)
+:::
+
+### Compliance
+
+Adhering to [University of Bristol](./800-resources.qmd) guidelines is essential for maintaining the University's legal compliance, protecting individuals' privacy rights, and preserving our institutional reputation. Violations of these data protection principles can result in serious consequences.
+
+University's approach to AI is built on these foundational principles:
+
+1. **Educational Excellence**: AI should enhance, not replace, learning and critical thinking
+2. **Academic Integrity**: Transparency and honesty in all AI usage
+3. **Ethical Responsibility**: Consideration of bias, privacy, and societal impact
+4. **Environmental Awareness**: Sustainable and responsible technology use
+5. **Inclusive Innovation**: Ensuring AI benefits all members of our community
+
+<!--
+#### Russell Group Principles Alignment
+
+As a Russell Group institution, we adhere to the [Russell Group Principles on generative AI in education](../assets/Russell%20Group%20principles%20on%20generative%20AI%20in%20education.pdf):  
+
+- Universities will support students and staff to become AI-literate.   
+- Staff should be equipped to support students to use generative AI tools effectively and appropriately in their learning experience.   
+- Universities will adapt teaching and assessment to incorporate the ethical use of generative AI and support equal access.  
+- Universities will ensure academic rigour and integrity is upheld.   
+- Universities will work collaboratively to share best practice as the technology and its application in education evolves.
+-->
+
+::: {.callout-important}
+## University of Bristol guidance
+
+Never share these with AI tools:
+
+🚫 **Personal data**: Student records, staff information, health data  
+🚫 **Confidential research**: Unpublished findings, grant applications under review  
+🚫 **Commercial sensitive**: Partnership agreements, financial information  
+🚫 **Legal privileged**: Legal advice, disciplinary proceedings  
+🚫 **Security sensitive**: Passwords, system configurations, access credentials
+
+[Find more →](./800-resources.qmd)
+:::
+
+
+
+
+### Data Privacy and Security
+
+
+When you use AI tools for work-related tasks, whether through web interfaces, APIs, or integrated applications, your data typically:
+
+1. **Travels over the internet** to AI company servers
+2. **Gets processed** by AI systems you don't control  
+3. **May be stored** temporarily or permanently by the AI provider
+4. **Could potentially be used** for training future AI models
+5. **Might be subject** to different legal jurisdictions
+
+Understanding this data flow is crucial for making informed decisions about what information you share with AI systems, especially when handling sensitive data or proprietary content. Always evaluate these risks and follow University guidance."
+
+#### Privacy Risk Assessment
+
+Before using AI tools, ask:
+
+**Low Risk** ✅
+
+- Public information already available online  
+- General knowledge questions  
+- Anonymous, aggregated data  
+- Published research you're summarizing  
+
+**Medium Risk** ⚠️ 
+
+- Internal documents with no personal data  
+- Draft policies before approval  
+- Academic work in progress (with proper disclosure)  
+
+**High Risk** ❌
+
+- Any personal or confidential information  
+- Unpublished research data  
+- Student or staff records  
+- Commercially sensitive material  
+
+#### Data Protection Best Practices
+
+Implementing proper data protection measures helps you minimizing privacy and security risks. Consider:
+
+1. **Use institutional accounts** when available (better data protection)
+2. **Anonymize data** before sharing with AI tools
+3. **Use placeholder data** for testing and training
+4. **Check privacy policies** of AI tools you use
+5. **Follow university guidelines** on data classification
+6. **Consider on-premises alternatives** for sensitive work
+
+
