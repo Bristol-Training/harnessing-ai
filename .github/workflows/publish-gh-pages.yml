@@ -1,0 +1,31 @@
+name: Deploy Quarto Page
+
+on:
+    push:
+        branches:
+            - main
+
+jobs:
+    build-and-deploy:
+        runs-on: ubuntu-latest
+        permissions:
+            contents: write
+            pages: write
+        steps:
+            - name: Checkout source
+              uses: actions/checkout@v4
+
+            - name: Install UV
+              run: |
+                    curl -LsSf https://astral.sh/uv/install.sh | sh
+                    echo "$HOME/.uv/bin" >> $GITHUB_PATH
+
+            - name: Build Quarto site
+              run: uv run quarto render
+
+            - name: Deploy to pages branch
+              uses: peaceiris/actions-gh-pages@v4
+              with:
+                    publish_dir: ./_site
+                    publish_branch: pages
+                    github_token: ${{ secrets.GITHUB_TOKEN }}
