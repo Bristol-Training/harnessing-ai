@@ -97,7 +97,7 @@ When artificial intelligence tools significantly contribute to your work, proper
 **Example Attribution**:
 "Initial drafts of this literature review were developed with assistance from Claude (Sonnet 4). All sources were independently verified, analysis was conducted by the author, and conclusions represent the author's professional judgment."
 
-**Require more thorough record-keeping?** Use this extended form instead
+**Do you require more thorough record-keeping?** Use a documentation form instead
 
 ::: {.center}
 [![](../assets/docx.png) LLM_Usage_Documentation_Form.docx](../assets/LLM_Usage_Documentation_Form.docx)

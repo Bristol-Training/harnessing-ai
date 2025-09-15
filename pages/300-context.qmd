@@ -98,7 +98,7 @@ We will not always get what we want at the first attempt. A useful strategy is s
 
 ### Exercise 2: Context Writing
 
-Transform a vague prompt into an effective, contextualised request. Use an AI tool of your choice to observe the difference between that context have on your request.
+Transform a vague prompt into an effective, contextualised request. Use an AI tool of your choice to observe the difference that context have on your request.
 
 **Scenario**: You need to create a policy document about flexible working arrangements for your department.
 

@@ -122,7 +122,7 @@ AI should **enhance** your capabilities, not **replace** your thinking:
 
 **Prompt**:
 
-> Write 2 or 3 sentences about how climate change is impacting Bristol
+> Write 2 sentences about how climate change is impacting Bristol
 
 
 Review the below outputs of three different LLM tools and identify potential issues:
