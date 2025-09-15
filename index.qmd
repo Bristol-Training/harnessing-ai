@@ -37,7 +37,7 @@ By the end of this course, you will be able to:
 
 These course materials have been designed and developed by  **Pau Erola, PhD** (Jean Golding Institute, University of Bristol).
 
-Thanks to Leo Gorman, Will Chapman, Rita Rasteiro, Richard Lane, James Thomas and Patricia Holley for their valuable comments and corrections.
+Thanks to Huw Day for his feedback and recommendations on ethics and environmental impact. Thanks to Leo Gorman, Will Chapman, Rita Rasteiro, Richard Lane, James Thomas and Patricia Holley for their valuable comments and corrections.
 
 We used the enhancement of AI in alignment with our institutional guidance:
 
