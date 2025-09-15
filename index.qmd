@@ -18,7 +18,7 @@ This course is built on the foundation of the University's commitment to respons
 - **Academic and Professional Integrity**: Maintaining the highest standards of work
 - **Ethical Considerations**: Being mindful of bias, privacy, and environmental impact
 
-[Find more →](./800-resources.qmd)
+[Find more →](./pages/800-resources.qmd)
 :::
 
 
