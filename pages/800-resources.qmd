@@ -31,17 +31,16 @@ title: "Resources"
 - [Google's AI Principles and Practices](https://ai.google/principles/)
 
 
-#### AI Ethics 
-
-- [Partnership on AI](https://partnershiponai.org/)
-
-- [AI Ethics Lab](https://aiethicslab.com/)
-
-- [Future of Humanity Institute](https://www.fhi.ox.ac.uk/)
-
-
 #### Other
 
 - [On the reg - podcast](https://onthereg.buzzsprout.com/)
 
 - [One useful thing - blog](https://www.oneusefulthing.org/)
+
+- [AI Ethics Lab](https://aiethicslab.com/)
+
+- [Partnership on AI](https://partnershiponai.org/)
+
+
+
+
