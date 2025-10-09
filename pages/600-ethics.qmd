@@ -4,79 +4,87 @@ title: "Ethics & Environmental Impact"
 
 ::: {.callout-note}
 ### Key Takeaways
-- Environmental cost is significant - Use AI efficiently, batch queries, choose smaller models when appropriate
-- AI has biases - Watch for gender, racial, socioeconomic, and geographic biases; request diverse examples explicitly
-- Maintain human oversight - AI should enhance, not replace, your expertise and critical judgment
+- Environmental cost is significant - Use AI efficiently, batch queries, choose smaller models when appropriate.
+- AI has biases - Watch for gender, racial, socioeconomic, and geographic biases; request diverse examples explicitly.
+- Maintain human oversight - AI should enhance, not replace, your expertise and critical judgment.
+- Consider ethical implications - Be mindful of data rights, labor practices, and the value of human communication.
 :::
-
 
 ::: {.callout-important}
 ## University of Bristol AI guidance
 
 We must be mindful of "environmental impacts, risks of bias and stereotyping, and ethical concerns about data privacy and security" when using AI tools.
 
-[Find more →](./800-resources.qmd)
+([Find more →](./800-resources.qmd))
 :::
-
 
 
 ### Environmental Impact
 
-#### The Hidden Carbon Cost
+We must be mindful of environmental impacts when using AI tools. AI systems consume significant energy, particularly during the initial training of large language models. For example, it is estimated that GPT-3's training produced 85,000 kg of CO₂, equivalent to 112 cars running for a year.
 
-AI systems consume significant energy:
+However, the environmental cost is not a one-off event. The full life cycle of generative AI includes raw material extraction, manufacturing, training, deployment (inference), and disposal. While training is energy-intensive, the **inference phase** (when the user interacts with the model) can exceed the consumption and emissions from training within a matter of weeks ([Luccioni *et al.* 2024](https://doi.org/10.1145/3630106.3658542)).
 
-- **Training large models**: It's estimated that GPT-3's training produced 85,000 kg of CO₂, emitting the same CO₂ as 112 cars running for a year.
+Moreover, generative AI is driving a substantial increase in the need for data centers. Approximately 40% of the energy usage in data centers goes toward cooling the processing units, and this process consumes vast amounts of **water**. For instance, ChatGPT consumes approximately half a liter of fresh water for every chat of 20–50 prompts ([Li *et al.* 2025](https://doi.org/10.48550/arXiv.2304.03271)).
 
-- **Running AI services**: Continuous energy use in data centers
-- **User interactions**: Each query requires computational resources
+::: {.callout-warning}
+## Water scarcity is a major environmental crisis
+Two-thirds of new data centers built in the USA since 2022 are in places already experiencing water scarcity.
+:::
+
+Every user interaction requires computational resources. You, the user, play a role in this consumption.
 
 
 #### Sustainable AI Practices
 
+Given the significant consumption required for deployment/inference, focusing on efficiency is critical:
+
 **Reduce Usage**:
 
-- Batch similar queries together
-- Use AI for high-value tasks, not trivial ones
-- Cache and reuse outputs when possible
+- Batch similar queries together.
+- Use AI for high-value tasks, not trivial ones.
+- Cache and reuse outputs when possible.
 
 **Choose Efficiently**:
 
-- Select providers committed to renewable energy
-- Consider the computational cost of your requests
-- Avoid unnecessary regeneration of content
+- Consider the computational cost of your requests.
+- Avoid unnecessary regeneration of content.
+- You may also choose smaller models when appropriate.
+- Select providers committed to renewable energy.
 
-**Offset Impact**:
+**Acknowledge the Option**:
 
-- Support carbon offset initiatives
-- Advocate for renewable energy in AI infrastructure
+- Based on ethical and environmental factors, **it is acceptable if you decide not to use LLMs**.
+- There is still value in knowing how they work and how they might be used by others.
+
+
+
 
 
 ### Bias and Fairness in AI
 
-#### Understanding AI Bias
+AI systems inherit and can amplify existing societal inequalities. The existing guidance on watching for gender, racial, socioeconomic, and geographic biases remains paramount.
 
-AI systems inherit biases from their training data and can amplify existing societal inequalities.
 
-**Gender Bias**
+**Gender Bias**:
 
 - Associating certain professions with specific genders
 - Using gendered language inappropriately
 - Making assumptions about capabilities based on gender
 
-**Racial and Ethnic Bias**
+**Racial and Ethnic Bias**:
 
 - Stereotypical associations with names or cultural references
 - Underrepresenting certain groups in examples
 - Making assumptions about backgrounds or capabilities
 
-**Socioeconomic Bias**
+**Socioeconomic Bias**:
 
 - Assuming access to resources or opportunities
 - Using examples that exclude certain economic backgrounds
 - Privileging certain educational or professional experiences
 
-**Geographic Bias**
+**Geographic Bias**:
 
 - Focusing on Western/English-speaking perspectives
 - Making assumptions about local contexts
@@ -97,7 +105,7 @@ When reviewing AI outputs, ask:
 
 #### Mitigating Bias
 
-**Prevention Strategies**:
+There are some prevention strategies that we can follow to mitigate the presence of bias in LLM answers:
 
 - Request diverse examples explicitly
 - Ask for multiple perspectives on controversial topics
@@ -112,3 +120,41 @@ try:
 
 > Provide examples of successful leaders from diverse backgrounds, including different genders, ethnicities, and cultural contexts, explaining their varied leadership styles.
 
+
+
+
+
+### Other Ethical Considerations
+
+Beyond bias and environmental concerns, generative AI systems raise significant ethical questions regarding intellectual property, labor practices, and the value of human communication.
+
+#### Data Rights and Labor Practices
+
+Large language models are trained on vast datasets typically collected **without explicit consent from content creators or copyright holders**. This practice raises concerns about attribution, compensation, and the rights of original authors whose work contributes to model training.
+
+Additionally, AI development relies heavily on labor that is often invisible to end users. Tasks such as Reinforcement Learning from Human Feedback (RLHF)—which involves rating outputs and identifying harmful content—are frequently **outsourced to workers in lower-income countries who receive inadequate compensation**. These patterns reflect broader inequities in how AI benefits and burdens are distributed globally.
+
+#### The Value of Human Process
+
+The appropriateness of AI use extends beyond output quality to consider the **intrinsic value of human cognitive and communicative processes**.
+
+**Reliability**: AI-generated content may contain errors or unverifiable claims. The effort required to verify and correct outputs may exceed the effort of completing tasks independently, particularly for complex work requiring domain expertise.
+
+**Communication and respect**: Using AI to generate responses to thoughtfully composed correspondence may signal that you **do not value the communicative exchange equally**, potentially undermining professional relationships and collegial trust.
+
+**Process versus product**: Many academic contexts value the cognitive processes involved in creating work—critical thinking, synthesis, and personal reflection—not merely the final output. Delegating these processes to AI may diminish learning and professional development outcomes.
+
+Responsible AI use requires critical awareness of these broader implications and contextual judgment about when AI tools align with your professional values and the expectations of your academic community.
+
+
+<br>
+---
+
+
+### Exercise 4: Reflective Exercise
+
+To explore the complex human dimensions of AI use, consider how others might feel about being on the receiving end of AI-generated content in sensitive contexts. You could hold a discussion exploring various scenarios, such as:
+
+*   Using AI to summarize CVs for job applicants.
+*   Using AI (without sharing any personal details) to draft an email response to a student about their extenuating circumstances.
+*   Using AI to write the first draft of a dissertation (you are the supervisor).

@@ -5,7 +5,7 @@ title: "Prompting Frameworks"
 ::: {.callout-note}
 ### Key Takeaways
 - High-quality prompts eliminate ambiguity - Clear context upfront gets better responses
-- Use structured frameworks - CLEAR or BASE methods ensure complete prompts
+- Use structured frameworks, e.g. the CLEAR framework, to ensure complete prompts
 - Never share sensitive data - No personal records, confidential research, or security information
 :::
 
@@ -89,52 +89,6 @@ Independently of the prompting framework that you are using, never share these w
 
 [Find more →](./800-resources.qmd)
 :::
-
-
-### The BASE Method
-
-The BASE method provides a four-step structured approach to crafting clear, effective prompts for LLMs.
-
-**Background** - Provide context and set the scene
-
-- Give the AI relevant background information about your situation, industry, or project
-- Explain the broader context that will help inform the response
-- Include any constraints or important considerations
-- Establish the setting and circumstances for your request
-
-**Action** - Clearly state what you want the AI to do
-
-- Use specific action verbs (analyze, create, summarize, compare, etc.)
-- Avoid ambiguous language that could lead to misinterpretation
-- Focus on one clear, primary objective
-
-**Specifics** - Define the details and parameters
-
-- Specify format requirements (length, structure, tone)
-- Include target audience information
-- Set clear boundaries and scope for the response
-
-**Examples** - Provide concrete illustrations
-
-- Show examples of desired output format or style
-- Include sample inputs or scenarios when relevant
-- Use positive examples (what you want) and negative examples (what to avoid) when helpful
-
-A good prompt example using the BASE method:
-
-> **Background:**
-> I work for the admissions office of a UK university with a strong reputation in Engineering. We're launching a recruitment campaign targeting European students for our MSc Engineering programs (Mechanical, Electrical, Civil Engineering). Brexit has reduced EU student applications by 30%, so we need to emphasize our value proposition. Our university offers excellent industry connections, state-of-the-art facilities, and strong graduate employment rates (95% employed within 6 months).  
-> **Action:** Create a digital marketing campaign email that will attract prospective European students to apply for our MSc Engineering programs  
-> **Specifics:**  
-> - Email should be 250-350 words  
-> - Include an attention-grabbing subject line  
-> - Professional yet inspiring tone  
-> - Include clear call-to-action (visit program webpage)  
-> - Target: European students completing Bachelor's degrees in Engineering   
-> **Examples:**   
-> - Include testimonials format: "Maria from Spain says: 'Best decision for my career'"  
-> - Avoid: overly academic language or lengthy program descriptions  
-
 
 
 <br>
