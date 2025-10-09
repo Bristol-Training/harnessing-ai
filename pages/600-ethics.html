@@ -42,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-39ee1574162a9b028b0d491e85a5e96b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-a6008ad8939675b20164b4963a1f48b9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -190,6 +190,11 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#environmental-impact" id="toc-environmental-impact" class="nav-link active" data-scroll-target="#environmental-impact">Environmental Impact</a></li>
   <li><a href="#bias-and-fairness-in-ai" id="toc-bias-and-fairness-in-ai" class="nav-link" data-scroll-target="#bias-and-fairness-in-ai">Bias and Fairness in AI</a></li>
+  <li><a href="#other-ethical-considerations" id="toc-other-ethical-considerations" class="nav-link" data-scroll-target="#other-ethical-considerations">Other Ethical Considerations</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"><br></a>
+  <ul class="collapse">
+  <li><a href="#exercise-4-reflective-exercise" id="toc-exercise-4-reflective-exercise" class="nav-link" data-scroll-target="#exercise-4-reflective-exercise">Exercise 4: Reflective Exercise</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/Bristol-Training/harnessing-ai/edit/main/pages/600-ethics.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/Bristol-Training/harnessing-ai/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -226,9 +231,10 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="callout-body-container callout-body">
 <ul>
-<li>Environmental cost is significant - Use AI efficiently, batch queries, choose smaller models when appropriate</li>
-<li>AI has biases - Watch for gender, racial, socioeconomic, and geographic biases; request diverse examples explicitly</li>
-<li>Maintain human oversight - AI should enhance, not replace, your expertise and critical judgment</li>
+<li>Environmental cost is significant - Use AI efficiently, batch queries, choose smaller models when appropriate.</li>
+<li>AI has biases - Watch for gender, racial, socioeconomic, and geographic biases; request diverse examples explicitly.</li>
+<li>Maintain human oversight - AI should enhance, not replace, your expertise and critical judgment.</li>
+<li>Consider ethical implications - Be mindful of data rights, labor practices, and the value of human communication.</li>
 </ul>
 </div>
 </div>
@@ -243,65 +249,73 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="callout-body-container callout-body">
 <p>We must be mindful of “environmental impacts, risks of bias and stereotyping, and ethical concerns about data privacy and security” when using AI tools.</p>
-<p><a href="../pages/800-resources.html">Find more →</a></p>
+<p>(<a href="../pages/800-resources.html">Find more →</a>)</p>
 </div>
 </div>
 <section id="environmental-impact" class="level3">
 <h3 class="anchored" data-anchor-id="environmental-impact">Environmental Impact</h3>
-<section id="the-hidden-carbon-cost" class="level4">
-<h4 class="anchored" data-anchor-id="the-hidden-carbon-cost">The Hidden Carbon Cost</h4>
-<p>AI systems consume significant energy:</p>
-<ul>
-<li><p><strong>Training large models</strong>: It’s estimated that GPT-3’s training produced 85,000 kg of CO₂, emitting the same CO₂ as 112 cars running for a year.</p></li>
-<li><p><strong>Running AI services</strong>: Continuous energy use in data centers</p></li>
-<li><p><strong>User interactions</strong>: Each query requires computational resources</p></li>
-</ul>
-</section>
+<p>We must be mindful of environmental impacts when using AI tools. AI systems consume significant energy, particularly during the initial training of large language models. For example, it is estimated that GPT-3’s training produced 85,000 kg of CO₂, equivalent to 112 cars running for a year.</p>
+<p>However, the environmental cost is not a one-off event. The full life cycle of generative AI includes raw material extraction, manufacturing, training, deployment (inference), and disposal. While training is energy-intensive, the <strong>inference phase</strong> (when the user interacts with the model) can exceed the consumption and emissions from training within a matter of weeks (<a href="https://doi.org/10.1145/3630106.3658542">Luccioni <em>et al.</em> 2024</a>).</p>
+<p>Moreover, generative AI is driving a substantial increase in the need for data centers. Approximately 40% of the energy usage in data centers goes toward cooling the processing units, and this process consumes vast amounts of <strong>water</strong>. For instance, ChatGPT consumes approximately half a liter of fresh water for every chat of 20–50 prompts (<a href="https://doi.org/10.48550/arXiv.2304.03271">Li <em>et al.</em> 2025</a>).</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>Water scarcity is a major environmental crisis
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Two-thirds of new data centers built in the USA since 2022 are in places already experiencing water scarcity.</p>
+</div>
+</div>
+<p>Every user interaction requires computational resources. You, the user, play a role in this consumption.</p>
 <section id="sustainable-ai-practices" class="level4">
 <h4 class="anchored" data-anchor-id="sustainable-ai-practices">Sustainable AI Practices</h4>
+<p>Given the significant consumption required for deployment/inference, focusing on efficiency is critical:</p>
 <p><strong>Reduce Usage</strong>:</p>
 <ul>
-<li>Batch similar queries together</li>
-<li>Use AI for high-value tasks, not trivial ones</li>
-<li>Cache and reuse outputs when possible</li>
+<li>Batch similar queries together.</li>
+<li>Use AI for high-value tasks, not trivial ones.</li>
+<li>Cache and reuse outputs when possible.</li>
 </ul>
 <p><strong>Choose Efficiently</strong>:</p>
 <ul>
-<li>Select providers committed to renewable energy</li>
-<li>Consider the computational cost of your requests</li>
-<li>Avoid unnecessary regeneration of content</li>
+<li>Consider the computational cost of your requests.</li>
+<li>Avoid unnecessary regeneration of content.</li>
+<li>You may also choose smaller models when appropriate.</li>
+<li>Select providers committed to renewable energy.</li>
 </ul>
-<p><strong>Offset Impact</strong>:</p>
+<p><strong>Acknowledge the Option</strong>:</p>
 <ul>
-<li>Support carbon offset initiatives</li>
-<li>Advocate for renewable energy in AI infrastructure</li>
+<li>Based on ethical and environmental factors, <strong>it is acceptable if you decide not to use LLMs</strong>.</li>
+<li>There is still value in knowing how they work and how they might be used by others.</li>
 </ul>
 </section>
 </section>
 <section id="bias-and-fairness-in-ai" class="level3">
 <h3 class="anchored" data-anchor-id="bias-and-fairness-in-ai">Bias and Fairness in AI</h3>
-<section id="understanding-ai-bias" class="level4">
-<h4 class="anchored" data-anchor-id="understanding-ai-bias">Understanding AI Bias</h4>
-<p>AI systems inherit biases from their training data and can amplify existing societal inequalities.</p>
-<p><strong>Gender Bias</strong></p>
+<p>AI systems inherit and can amplify existing societal inequalities. The existing guidance on watching for gender, racial, socioeconomic, and geographic biases remains paramount.</p>
+<p><strong>Gender Bias</strong>:</p>
 <ul>
 <li>Associating certain professions with specific genders</li>
 <li>Using gendered language inappropriately</li>
 <li>Making assumptions about capabilities based on gender</li>
 </ul>
-<p><strong>Racial and Ethnic Bias</strong></p>
+<p><strong>Racial and Ethnic Bias</strong>:</p>
 <ul>
 <li>Stereotypical associations with names or cultural references</li>
 <li>Underrepresenting certain groups in examples</li>
 <li>Making assumptions about backgrounds or capabilities</li>
 </ul>
-<p><strong>Socioeconomic Bias</strong></p>
+<p><strong>Socioeconomic Bias</strong>:</p>
 <ul>
 <li>Assuming access to resources or opportunities</li>
 <li>Using examples that exclude certain economic backgrounds</li>
 <li>Privileging certain educational or professional experiences</li>
 </ul>
-<p><strong>Geographic Bias</strong></p>
+<p><strong>Geographic Bias</strong>:</p>
 <ul>
 <li>Focusing on Western/English-speaking perspectives</li>
 <li>Making assumptions about local contexts</li>
@@ -327,10 +341,9 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 </div>
 </div>
-</section>
 <section id="mitigating-bias" class="level4">
 <h4 class="anchored" data-anchor-id="mitigating-bias">Mitigating Bias</h4>
-<p><strong>Prevention Strategies</strong>:</p>
+<p>There are some prevention strategies that we can follow to mitigate the presence of bias in LLM answers:</p>
 <ul>
 <li>Request diverse examples explicitly</li>
 <li>Ask for multiple perspectives on controversial topics</li>
@@ -345,6 +358,35 @@ ul.task-list li input[type="checkbox"] {
 <blockquote class="blockquote">
 <p>Provide examples of successful leaders from diverse backgrounds, including different genders, ethnicities, and cultural contexts, explaining their varied leadership styles.</p>
 </blockquote>
+</section>
+</section>
+<section id="other-ethical-considerations" class="level3">
+<h3 class="anchored" data-anchor-id="other-ethical-considerations">Other Ethical Considerations</h3>
+<p>Beyond bias and environmental concerns, generative AI systems raise significant ethical questions regarding intellectual property, labor practices, and the value of human communication.</p>
+<section id="data-rights-and-labor-practices" class="level4">
+<h4 class="anchored" data-anchor-id="data-rights-and-labor-practices">Data Rights and Labor Practices</h4>
+<p>Large language models are trained on vast datasets typically collected <strong>without explicit consent from content creators or copyright holders</strong>. This practice raises concerns about attribution, compensation, and the rights of original authors whose work contributes to model training.</p>
+<p>Additionally, AI development relies heavily on labor that is often invisible to end users. Tasks such as Reinforcement Learning from Human Feedback (RLHF)—which involves rating outputs and identifying harmful content—are frequently <strong>outsourced to workers in lower-income countries who receive inadequate compensation</strong>. These patterns reflect broader inequities in how AI benefits and burdens are distributed globally.</p>
+</section>
+<section id="the-value-of-human-process" class="level4">
+<h4 class="anchored" data-anchor-id="the-value-of-human-process">The Value of Human Process</h4>
+<p>The appropriateness of AI use extends beyond output quality to consider the <strong>intrinsic value of human cognitive and communicative processes</strong>.</p>
+<p><strong>Reliability</strong>: AI-generated content may contain errors or unverifiable claims. The effort required to verify and correct outputs may exceed the effort of completing tasks independently, particularly for complex work requiring domain expertise.</p>
+<p><strong>Communication and respect</strong>: Using AI to generate responses to thoughtfully composed correspondence may signal that you <strong>do not value the communicative exchange equally</strong>, potentially undermining professional relationships and collegial trust.</p>
+<p><strong>Process versus product</strong>: Many academic contexts value the cognitive processes involved in creating work—critical thinking, synthesis, and personal reflection—not merely the final output. Delegating these processes to AI may diminish learning and professional development outcomes.</p>
+<p>Responsible AI use requires critical awareness of these broader implications and contextual judgment about when AI tools align with your professional values and the expectations of your academic community.</p>
+</section>
+</section>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section"><br></h2>
+<section id="exercise-4-reflective-exercise" class="level3">
+<h3 class="anchored" data-anchor-id="exercise-4-reflective-exercise">Exercise 4: Reflective Exercise</h3>
+<p>To explore the complex human dimensions of AI use, consider how others might feel about being on the receiving end of AI-generated content in sensitive contexts. You could hold a discussion exploring various scenarios, such as:</p>
+<ul>
+<li>Using AI to summarize CVs for job applicants.</li>
+<li>Using AI (without sharing any personal details) to draft an email response to a student about their extenuating circumstances.</li>
+<li>Using AI to write the first draft of a dissertation (you are the supervisor).</li>
+</ul>
 
 
 </section>
