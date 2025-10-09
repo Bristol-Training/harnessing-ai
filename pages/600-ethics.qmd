@@ -151,7 +151,7 @@ Responsible AI use requires critical awareness of these broader implications and
 ---
 
 
-### Exercise 4: Reflective Exercise
+### Exercise 5: Reflective Exercise
 
 To explore the complex human dimensions of AI use, consider how others might feel about being on the receiving end of AI-generated content in sensitive contexts. You could hold a discussion exploring various scenarios, such as:
 
