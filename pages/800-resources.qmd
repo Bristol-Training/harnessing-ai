@@ -8,9 +8,18 @@ title: "Resources"
 
 - [**IT Services Generative AI Guidance**](https://uob.sharepoint.com/sites/itservices/SitePages/generative-ai.aspx) (UoB login required)
 
-- [University Guidance on Generative AI in Education](https://www.bristol.ac.uk/bilt/sharing-practice/guides/guidance-on-ai/)
+- [**Data Protection Policy**](https://www.bristol.ac.uk/secretary/data-protection/policy)
 
-- [Study Skills Resource on Using AI for Students](https://alt.content.bris.ac.uk/bbcswebdav/courses/Study_Skills/using-ai-at-university/)
+- [**Data Protection Privacy Notices**](https://www.bristol.ac.uk/secretary/data-protection/privacy-notices/)
+
+- [**Information Security Policies**](https://www.bristol.ac.uk/infosec/policies/)
+
+- [**University Guidance on Generative AI in Education**](https://www.bristol.ac.uk/bilt/sharing-practice/guides/guidance-on-ai/)
+
+- [**Study Skills Resource on Using AI for Students**](https://alt.content.bris.ac.uk/bbcswebdav/courses/Study_Skills/using-ai-at-university/)
+
+- [**Academic Integrity Policy**](https://www.bristol.ac.uk/media-library/sites/academic-quality/Policy%20on%20Academic%20Integrity%20.pdf)
+
 
 
 #### Other guidance

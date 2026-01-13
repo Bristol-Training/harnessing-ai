@@ -4,43 +4,35 @@ title: "Privacy & Compliance"
 
 ::: {.callout-note}
 ### Key Takeaways
-- Follow University guidelines - Ensure academic integrity, maintain transparency, disclose AI use appropriately
-- Never share sensitive data - No personal records, unpublished research, financial info, or security credentials
-- Assess privacy risk first - Low risk (public info), medium risk (internal docs), high risk (personal/confidential)
-- Use best practices - Anonymize data, use institutional accounts when available, check privacy policies
+- Use approved tools (e.g., Microsoft Copilot, Teams transcription) and always review AI outputs before sharing.
+- Minimise personal data and disclose AI use in academic work to maintain transparency and integrity.
+- Complete a Data Protection Impact Assessment (DPIA) for high-risk AI projects, such as those involving sensitive data or automated decision-making.
+- Assess and mitigate bias in AI outputs, keep clear records of decisions, and consult Information Compliance for novel or complex use cases.
 :::
 
-::: {.callout-important}
-## University of Bristol AI guidance
 
-We must be mindful of "environmental impacts, risks of bias and stereotyping, and ethical concerns about data privacy and security" when using AI tools.
 
-[Find more →](./800-resources.qmd)
-:::
+Artificial Intelligence is embedded in many tools we use daily, often invisibly. Used well, it saves time and improves productivity — but it also introduces compliance risks, especially when personal data or decisions about people are involved. It’s essential to understand what you can do freely with approved tools, when to involve the <data-protection@bristol.ac.uk>, and why awareness of “hidden AI” matters.
 
-### Compliance
 
-Adhering to [University of Bristol](./800-resources.qmd) guidelines is essential for maintaining the University's legal compliance, protecting individuals' privacy rights, and preserving our institutional reputation. Violations of these data protection principles can result in serious consequences.
+## Everyday AI Use
 
-University's approach to AI is built on these foundational principles:
+You can use University-approved tools such as **Microsoft Copilot** and **Teams transcription** for routine tasks. These operate within the University’s secure Microsoft 365 environment, so prompts and outputs are protected under our tenancy. Examples of safe, everyday use include:
 
-1. **Educational Excellence**: AI should enhance, not replace, learning and critical thinking
-2. **Academic Integrity**: Transparency and honesty in all AI usage
-3. **Ethical Responsibility**: Consideration of bias, privacy, and societal impact
-4. **Environmental Awareness**: Sustainable and responsible technology use
-5. **Inclusive Innovation**: Ensuring AI benefits all members of our community
+*   Summarising documents
+*   Drafting content
+*   Generating ideas
+*   Transcribing meetings
 
-<!--
-#### Russell Group Principles Alignment
+**Always review outputs before sharing** — AI can misinterpret or invent details. Treat its work as a draft, not a final version.
 
-As a Russell Group institution, we adhere to the [Russell Group Principles on generative AI in education](../assets/Russell%20Group%20principles%20on%20generative%20AI%20in%20education.pdf):  
+### Stay SAFE
 
-- Universities will support students and staff to become AI-literate.   
-- Staff should be equipped to support students to use generative AI tools effectively and appropriately in their learning experience.   
-- Universities will adapt teaching and assessment to incorporate the ethical use of generative AI and support equal access.  
-- Universities will ensure academic rigour and integrity is upheld.   
-- Universities will work collaboratively to share best practice as the technology and its application in education evolves.
--->
+-   **S – Stick to approved tools**: Use University-approved platforms like Copilot and Teams transcription.
+-   **A – Always review outputs**: Check for errors, bias, and hallucinations before sharing.
+-   **F – Follow academic integrity**: Disclose AI use in teaching or research where relevant.
+-   **E – Enter minimal data**: Keep personal and confidential data to a minimum, even within approved tools. Anything entered into Copilot is subject to legal processes, including Freedom of Information requests (FOI).
+
 
 ::: {.callout-important}
 ## University of Bristol guidance
@@ -56,10 +48,92 @@ Never share these with AI tools:
 [Find more →](./800-resources.qmd)
 :::
 
+## Privacy Risk Assessment
+
+Not all AI use is low risk. If you plan to use a new tool or apply an approved tool in a novel way, speak to the <data-protection@bristol.ac.uk> **before you start**.
+
+You will need to complete a [Data Protection Impact Assessment (DPIA)](https://uob.sharepoint.com/sites/governance/SitePages/What-is-a-Data-Protection-Impact-Assessment-(DPIA)-.aspx) for high-risk processing, such as:
+
+-   Automated decision-making (even with human checking)
+-   Large-scale processing of sensitive data
+-   Combining datasets for profiling or prediction
+
+Indicators you need compliance checks:
+
+-   AI processes significant personal or special category data
+-   AI influences decisions about people (grading, recruitment, disciplinary)
+-   Combining multiple datasets or profiling individuals
+-   Project feels novel, complex, or high risk
+
+Under UK GDPR and ICO guidance, high-risk processing must be assessed for **lawfulness, fairness, transparency, and accountability**. A DPIA helps identify risks and document controls.
+
+**Key requirements for high-risk AI use:**
+
+-   Provide meaningful human review for automated decisions
+-   Offer clear privacy information and opt-out options
+-   Explain AI logic and impact in plain English
+-   Assess and mitigate bias in training data and outputs
+_   Record roles, responsibilities, DPIAs, and decisions
+-   Consult the ICO if risks cannot be mitigated
 
 
 
-### Data Privacy and Security
+## Intellectual Property and Academic Integrity
+
+AI-generated content raises questions about ownership and copyright. Under UK law, works created by AI without human authorship may not attract copyright protection. If you use AI to assist with creating materials, you remain responsible for:
+
+-   Rights to any source material used
+-   Avoiding infringement of third-party IP
+-   Acknowledging AI use where required by academic integrity policies
+
+For research and teaching, treat AI outputs as **supporting material**, not original scholarship.
+
+
+
+## Checklists
+
+**Everyday AI Use**
+
+✅ Use University-approved tools (Copilot, Teams transcription)  
+✅ Review AI outputs before sharing  
+✅ Minimise personal data  
+✅ Be transparent—disclose AI use in academic work  
+✅ Watch for hidden AI features
+
+**You Need a DPIA**
+
+If you tick **yes** to any, contact Information Compliance before starting:
+
+- [ ] Will AI process special category data?  
+- [ ] Will AI influence decisions about people?  
+- [ ] Will AI combine multiple datasets or profile individuals?  
+- [ ] Is the project novel, complex, or high risk?  
+- [ ] Will outputs have legal or significant effects?  
+- [ ] Does the project involve bias analysis or fairness checks?  
+- [ ] Will you need to explain AI decisions to individuals?
+
+
+
+### Scenarios
+
+| **Scenario**                                         | **Category**          | **Action Required**                        |
+| ---------------------------------------------------- | --------------------- | ------------------------------------------ |
+| Using Copilot to draft lecture notes                 | Everyday use          | Review outputs, treat as source material   |
+| Summarising published research with Copilot          | Everyday use          | Check accuracy                             |
+| Teams transcription for meeting minutes              | Everyday use          | Review for errors before ratifying         |
+| Generating ideas for teaching materials              | Everyday use          | Treat as source material, check references |
+| Uploading student records into AI tool               | High-risk / Novel use | Consult Information Compliance             |
+| Using AI to shortlist job applicants                 | High-risk / Novel use | Consult Information Compliance             |
+| Combining datasets for profiling                     | High-risk / Novel use | Consult Information Compliance             |
+| AI making decisions with legal/significant effects   | High-risk / Novel use | Consult Information Compliance             |
+| Processing special category data (health, ethnicity) | High-risk / Novel use | Consult Information Compliance             |
+| Developing a new AI model for research               | High-risk / Novel use | Consult Information Compliance             |
+
+
+
+
+
+## Data Privacy and Security
 
 
 When you use AI tools for work-related tasks, whether through web interfaces, APIs, or integrated applications, your data typically:
@@ -70,11 +144,11 @@ When you use AI tools for work-related tasks, whether through web interfaces, AP
 4. **Could potentially be used** for training future AI models
 5. **Might be subject** to different legal jurisdictions
 
-Understanding this data flow is crucial for making informed decisions about what information you share with AI systems, especially when handling sensitive data or proprietary content. Always evaluate these risks and follow University guidance."
+Understanding this data flow is crucial for making informed decisions about what information you share with AI systems, especially when handling sensitive data or proprietary content. Always evaluate these risks and follow University guidance.
 
-#### Privacy Risk Assessment
 
-Before using AI tools, ask:
+::: {.callout-warning}
+### Data Privacy Risk 
 
 **Low Risk** ✅
 
@@ -96,7 +170,10 @@ Before using AI tools, ask:
 - Student or staff records  
 - Commercially sensitive material  
 
-#### Data Protection Best Practices
+:::
+
+
+### Data Protection Best Practices
 
 Implementing proper data protection measures helps you minimizing privacy and security risks. Consider:
 
@@ -106,5 +183,4 @@ Implementing proper data protection measures helps you minimizing privacy and se
 4. **Check privacy policies** of AI tools you use
 5. **Follow university guidelines** on data classification
 6. **Consider on-premises alternatives** for sensitive work
-
 
