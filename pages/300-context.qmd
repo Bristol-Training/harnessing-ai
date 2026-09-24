@@ -35,13 +35,19 @@ Note that while LLMs have no memory between separate chat sessions and don't ret
 ::: {.callout-important}
 ## University of Bristol guidance
 
-When writing your context, never share these with AI tools:
+Take extra care when using AI tools with:
 
-🚫 **Personal data**: Student records, staff information, health data  
-🚫 **Confidential research**: Unpublished findings, grant applications under review  
-🚫 **Commercial sensitive**: Partnership agreements, financial information  
-🚫 **Legal privileged**: Legal advice, disciplinary proceedings  
-🚫 **Security sensitive**: Passwords, system configurations, access credentials
+⚠️ **Personal data** — student, staff or health information
+⚠️ **Confidential research** — unpublished findings or applications
+⚠️ **Commercially sensitive information** — agreements or financial information
+⚠️ **Legally privileged information** — legal advice or disciplinary matters
+⚠️ **Security-sensitive information** — system configurations or access information
+
+Before using sensitive information, **check University policies and guidance and make sure the AI tool is approved and appropriate for that data**.
+
+Also understand **what files or connected services the AI tool can access**. AI tools may be able to retrieve information beyond what you explicitly upload, creating a risk of unintended disclosure.
+
+**Never share passwords or access credentials with AI tools**.
 
 [Find more →](./800-resources.qmd)
 :::
