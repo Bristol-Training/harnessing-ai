@@ -134,7 +134,7 @@
     "href": "pages/600-ethics.html",
     "title": "Ethics & Environmental Impact",
     "section": "",
-    "text": "NoteKey Takeaways\n\n\n\n\nEnvironmental cost is significant - Use AI efficiently, batch queries, choose smaller models when appropriate.\nAI has biases - Watch for gender, racial, socioeconomic, and geographic biases; request diverse examples explicitly.\nMaintain human oversight - AI should enhance, not replace, your expertise and critical judgment.\nConsider ethical implications - Be mindful of data rights, labor practices, and the value of human communication.",
+    "text": "NoteKey Takeaways\n\n\n\n\nEnvironmental impact is primarily an electricity and infrastructure issue; water impacts are important but depend strongly on location, cooling technology, and what is included in the calculation.\nAI has biases - Watch for gender, racial, socioeconomic, and geographic biases; request diverse examples explicitly.\nMaintain human oversight - AI should enhance, not replace, your expertise and critical judgment.\nConsider ethical implications - Be mindful of data rights, labor practices, and the value of human communication.",
     "crumbs": [
       "Ethics & Environmental Impact"
     ]

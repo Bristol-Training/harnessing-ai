@@ -236,7 +236,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="callout-body-container callout-body">
 <ul>
-<li>Environmental cost is significant - Use AI efficiently, batch queries, choose smaller models when appropriate.</li>
+<li>Environmental impact is primarily an <strong>electricity and infrastructure</strong> issue; water impacts are important but depend strongly on location, cooling technology, and what is included in the calculation.</li>
 <li>AI has biases - Watch for gender, racial, socioeconomic, and geographic biases; request diverse examples explicitly.</li>
 <li>Maintain human oversight - AI should enhance, not replace, your expertise and critical judgment.</li>
 <li>Consider ethical implications - Be mindful of data rights, labor practices, and the value of human communication.</li>
@@ -259,44 +259,58 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <section id="environmental-impact" class="level3">
 <h3 class="anchored" data-anchor-id="environmental-impact">Environmental Impact</h3>
-<p>We must be mindful of environmental impacts when using AI tools. AI systems consume significant energy, particularly during the initial training of large language models. For example, it is estimated that GPT-3’s training produced 85,000 kg of CO₂, equivalent to 112 cars running for a year.</p>
-<p>However, the environmental cost is not a one-off event. The full life cycle of generative AI includes raw material extraction, manufacturing, training, deployment (inference), and disposal. While training is energy-intensive, the <strong>inference phase</strong> (when the user interacts with the model) can exceed the consumption and emissions from training within a matter of weeks (<a href="https://doi.org/10.1145/3630106.3658542">Luccioni <em>et al.</em> 2024</a>).</p>
-<p>Moreover, generative AI is driving a substantial increase in the need for data centers. Approximately 40% of the energy usage in data centers goes toward cooling the processing units, and this process consumes vast amounts of <strong>water</strong>. For instance, ChatGPT consumes approximately half a liter of fresh water for every chat of 20–50 prompts (<a href="https://doi.org/10.48550/arXiv.2304.03271">Li <em>et al.</em> 2025</a>).</p>
+<p>AI is not an immaterial service: every interaction depends on physical infrastructure including <strong>data centres, specialised chips, networks, cooling systems, and electricity grids</strong>. The environmental impact of AI is best understood at system scale rather than by focusing only on the footprint of a single prompt (Prof.&nbsp;Chris Preist, <em><a href="https://www.youtube.com/watch?v=ZdTVtOatMJA">Everything, Everywhere, All at Once: The Hidden Cost of AI</a></em>, 2026). A <a href="https://climateaction.tech/blog/everything-everywhere-all-at-once-the-hidden-cost-of-ai/">ClimateAction.tech summary</a> identifies electricity consumption as the standout concern, while water use and hardware production remain important secondary impacts.</p>
+<section id="electricity-the-main-pressure" class="level4">
+<h4 class="anchored" data-anchor-id="electricity-the-main-pressure">Electricity: the main pressure</h4>
+<p>The International Energy Agency estimates that data centres used around <strong>485 TWh of electricity in 2025</strong> and projects roughly <strong>950 TWh by 2030</strong> in its central case, about 3% of global electricity demand. AI-focused data centres are growing faster than data centres overall. The global percentage can hide much larger local effects because data centres are geographically concentrated and can place substantial new demand on particular electricity grids (<a href="https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary">IEA 2026</a>).</p>
+<p>The impact of an individual AI request is not a fixed number. A 2025 production study by Google measured a <strong>median Gemini text prompt at 0.24 Wh</strong>, but energy use varies with model, prompt length, output length, hardware, and the type of task (<a href="https://arxiv.org/abs/2508.15734">Elsworth <em>et al.</em> 2025</a>). Reasoning, agentic workflows, image generation, and video generation can be much more computationally intensive than a short text interaction. Efficiency per task is improving rapidly, but increased adoption and more demanding workloads can outweigh those gains.</p>
+</section>
+<section id="water-important-but-highly-context-dependent" class="level4">
+<h4 class="anchored" data-anchor-id="water-important-but-highly-context-dependent">Water: important, but highly context-dependent</h4>
+<p>AI-related water use can occur in several places:</p>
+<ul>
+<li><strong>Directly at the data centre</strong>, for cooling and humidification.</li>
+<li><strong>Indirectly through electricity generation</strong>, where power stations may withdraw or consume water.</li>
+<li><strong>During hardware manufacturing</strong>, including semiconductor production.</li>
+</ul>
+<p>These different boundaries matter. A widely cited study estimated that GPT-3 could consume about <strong>500 ml of water for roughly 10–50 medium-length responses</strong>, depending on where and when it ran; the estimate includes both on-site and electricity-related water and should not be treated as a universal “water per prompt” figure (<a href="https://doi.org/10.1145/3724499">Li <em>et al.</em> 2025</a>). By contrast, Google’s 2025 study reported <strong>0.26 ml of on-site cooling water per median Gemini text prompt</strong>. The figures are not directly comparable because they concern different models, facilities, dates, and system boundaries.</p>
+<p>Cooling technology also changes the picture. Modern data centres may use free-air cooling, adiabatic cooling, or closed-loop liquid cooling, which can greatly reduce on-site water use compared with older water-intensive cooling designs. Microsoft reports a global <strong>Water Usage Effectiveness (WUE) of 0.27 L/kWh for FY25</strong> across the data centres it owns and controls, illustrating how operators now track water alongside energy efficiency (<a href="https://datacenters.microsoft.com/sustainability/efficiency/">Microsoft datacentre efficiency</a>).</p>
+<p>A particularly relevant local example is <strong>Isambard-AI</strong> at the University of Bristol. This 5 MW national AI research facility uses <strong>direct liquid cooling</strong> and reports a Power Usage Effectiveness (PUE) of about <strong>1.08</strong>, indicating that only a relatively small proportion of its electricity is used for facility overhead rather than computation (<a href="https://www.bristol.ac.uk/research/centres/bristol-supercomputing/articles/2026/inside-isambard-ai.html">University of Bristol, 2026</a>). Its design shows how newer AI infrastructure can reduce cooling and power overheads through tightly integrated engineering. It also provides a useful reminder that environmental impacts should be assessed using the characteristics of the actual facility, rather than extrapolating from older or less efficient data-centre designs.</p>
 <div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Warning</span>Water scarcity is a major environmental crisis
+<span class="screen-reader-only">Warning</span>Water impacts are local
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Two-thirds of new data centers built in the USA since 2022 are in places already experiencing water scarcity.</p>
+<p>Water demand that is manageable in one location can be damaging in a water-stressed catchment. Claims about AI water use should be interpreted carefully. Reported figures may refer to <strong>water withdrawal</strong> or <strong>water consumption</strong>, and may include only <strong>on-site cooling</strong> or also water used to generate electricity. Their significance also depends on the cooling technology, the local level of water stress, and whether the figures are measured directly, modelled, or extrapolated from other facilities.</p>
 </div>
 </div>
-<p>Every user interaction requires computational resources. You, the user, play a role in this consumption.</p>
+</section>
 <section id="sustainable-ai-practices" class="level4">
 <h4 class="anchored" data-anchor-id="sustainable-ai-practices">Sustainable AI Practices</h4>
-<p>Given the significant consumption required for deployment/inference, focusing on efficiency is critical:</p>
-<p><strong>Reduce Usage</strong>:</p>
+<p>Individual interactions are usually small compared with the system as a whole, but billions of interactions and increasingly compute-intensive applications add up. Useful practices include:</p>
+<p><strong>Use the lightest tool that meets the need</strong>:</p>
 <ul>
-<li>Batch similar queries together.</li>
-<li>Use AI for high-value tasks, not trivial ones.</li>
-<li>Cache and reuse outputs when possible.</li>
+<li>Use simpler text interactions rather than reasoning, agentic, image, or video workflows when the extra capability is not needed.</li>
+<li>Choose smaller or task-specific models when they are adequate.</li>
+<li>Avoid repeated regeneration and reuse suitable outputs where possible.</li>
 </ul>
-<p><strong>Choose Efficiently</strong>:</p>
+<p><strong>Look for transparent infrastructure</strong>:</p>
 <ul>
-<li>Consider the computational cost of your requests.</li>
-<li>Avoid unnecessary regeneration of content.</li>
-<li>You may also choose smaller models when appropriate.</li>
-<li>Select providers committed to renewable energy.</li>
+<li>Prefer providers that disclose energy use, electricity sources, PUE, WUE, and model-level resource information.</li>
+<li>Remember that “renewable energy” claims and water metrics can use different accounting boundaries; check what is actually being measured.</li>
+<li>Where you control infrastructure, consider grid carbon intensity, local water stress, and cooling design as well as model efficiency.</li>
 </ul>
-<p><strong>Acknowledge the Option</strong>:</p>
+<p><strong>Keep the decision in context</strong>:</p>
 <ul>
-<li>Based on ethical and environmental factors, <strong>it is acceptable if you decide not to use LLMs</strong>.</li>
-<li>There is still value in knowing how they work and how they might be used by others.</li>
+<li>The computational cost of AI should be considered alongside the value it adds to the task.</li>
+<li>Choosing not to use an LLM can be appropriate where the environmental or ethical costs outweigh the benefits.</li>
 </ul>
+<p>For a detailed set of notes from the talk, see <em><a href="https://www.holdfastprojects.com/ustwo-chrispreist">AI sweat: data centre emissions</a></em>.</p>
 </section>
 </section>
 <section id="bias-and-fairness-in-ai" class="level3">
