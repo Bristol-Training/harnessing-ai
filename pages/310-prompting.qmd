@@ -82,9 +82,13 @@ A good prompt example using the CLEAR framework:
 Independently of the prompting framework that you are using, take extra care when using AI tools with:
 
 ⚠️ **Personal data** — student, staff or health information
+
 ⚠️ **Confidential research** — unpublished findings or applications
+
 ⚠️ **Commercially sensitive information** — agreements or financial information
+
 ⚠️ **Legally privileged information** — legal advice or disciplinary matters
+
 ⚠️ **Security-sensitive information** — system configurations or access information
 
 Before using sensitive information, **check University policies and guidance and make sure the AI tool is approved and appropriate for that data**.
