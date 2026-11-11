@@ -77,7 +77,6 @@ For a detailed set of notes from the talk, see *[AI sweat: data centre emissions
 
 
 
-
 ### Bias and Fairness in AI
 
 AI systems inherit and can amplify existing societal inequalities. The existing guidance on watching for gender, racial, socioeconomic, and geographic biases remains paramount.
