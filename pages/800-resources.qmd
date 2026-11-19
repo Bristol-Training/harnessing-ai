@@ -6,6 +6,8 @@ title: "Resources"
 
 #### University of Bristol guidance
 
+- [**AI in Research Principles**](https://www.bristol.ac.uk/research/environment/ai-in-research-principles/)
+
 - [**IT Services Generative AI Guidance**](https://uob.sharepoint.com/sites/itservices/SitePages/generative-ai.aspx) (UoB login required)
 
 - [**Data Protection Policy**](https://www.bristol.ac.uk/secretary/data-protection/policy)
